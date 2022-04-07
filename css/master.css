@@ -11,6 +11,7 @@ div {
     display: flex;
 }
 .container {
+    padding: 10px 0;
     background-color: hsl(216, 50%, 16%);
     width: 280px;
     height: fit-content;
