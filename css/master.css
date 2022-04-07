@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'outfit', sans-serif;
+}
+body {
+    background-color:  hsl(217, 54%, 11%);
+}
+div {
+    display: flex;
+}
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 280px;
+    height: fit-content;
+    border-radius: .625rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    /* box-shadow: -1px -1px 10px 10px #000; */
+}
+.container > div {
+    justify-content: space-between;
+    align-items: center;
+    width: 86%;
+    margin: 10px auto;
+}
+.container p {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+.container .image {
+    width: 80%;
+    height: 40%;
+    margin: 10px auto;
+    border-radius: .625rem;
+}
+.container .heading {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+    font-weight: 600;
+}  
+.container > p, 
+.container > h1 {
+    margin: 10px 20px;
+}
+.container .price-div img {
+    transform: translateY(15%);
+}
+.container .price-div .Ethereum {
+   color: hsl(178, 100%, 50%);
+}
+hr {
+    border: none;
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background-color: hsl(215, 51%, 70%);
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+.container .footer p span {
+    color:hsl(0, 0%, 100%)
+}
