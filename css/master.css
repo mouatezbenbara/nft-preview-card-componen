@@ -21,7 +21,6 @@ div {
     left: 50%;
     transform: translate(-50%, -50%);
     flex-direction: column;
-    /* box-shadow: -1px -1px 10px 10px #000; */
 }
 .container > div {
     justify-content: space-between;
